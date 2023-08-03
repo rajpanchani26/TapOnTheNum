@@ -17,6 +17,13 @@
 		DE5778882A7B5A7100D052B5 /* TapOnTheNumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5778872A7B5A7100D052B5 /* TapOnTheNumTests.swift */; };
 		DE5778922A7B5A7100D052B5 /* TapOnTheNumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5778912A7B5A7100D052B5 /* TapOnTheNumUITests.swift */; };
 		DE5778942A7B5A7100D052B5 /* TapOnTheNumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5778932A7B5A7100D052B5 /* TapOnTheNumUITestsLaunchTests.swift */; };
+		DE5778A72A7B5A9200D052B5 /* Cattegary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5778A02A7B5A9100D052B5 /* Cattegary.swift */; };
+		DE5778A82A7B5A9200D052B5 /* Last_Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5778A12A7B5A9100D052B5 /* Last_Page.swift */; };
+		DE5778A92A7B5A9200D052B5 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5778A22A7B5A9100D052B5 /* MyCollectionViewCell.swift */; };
+		DE5778AA2A7B5A9200D052B5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5778A32A7B5A9100D052B5 /* CollectionViewCell.swift */; };
+		DE5778AB2A7B5A9200D052B5 /* GamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5778A42A7B5A9100D052B5 /* GamePage.swift */; };
+		DE5778AC2A7B5A9200D052B5 /* myCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5778A52A7B5A9100D052B5 /* myCollectionReusableView.swift */; };
+		DE5778AD2A7B5A9200D052B5 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5778A62A7B5A9200D052B5 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		DE57788D2A7B5A7100D052B5 /* TapOnTheNumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapOnTheNumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5778912A7B5A7100D052B5 /* TapOnTheNumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapOnTheNumUITests.swift; sourceTree = "<group>"; };
 		DE5778932A7B5A7100D052B5 /* TapOnTheNumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapOnTheNumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE5778A02A7B5A9100D052B5 /* Cattegary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cattegary.swift; sourceTree = "<group>"; };
+		DE5778A12A7B5A9100D052B5 /* Last_Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Last_Page.swift; sourceTree = "<group>"; };
+		DE5778A22A7B5A9100D052B5 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE5778A32A7B5A9100D052B5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		DE5778A42A7B5A9100D052B5 /* GamePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePage.swift; sourceTree = "<group>"; };
+		DE5778A52A7B5A9100D052B5 /* myCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCollectionReusableView.swift; sourceTree = "<group>"; };
+		DE5778A62A7B5A9200D052B5 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,13 @@
 				DE57786F2A7B5A7000D052B5 /* SceneDelegate.swift */,
 				DE5778712A7B5A7000D052B5 /* ViewController.swift */,
 				DE5778732A7B5A7000D052B5 /* Main.storyboard */,
+				DE5778A02A7B5A9100D052B5 /* Cattegary.swift */,
+				DE5778A32A7B5A9100D052B5 /* CollectionViewCell.swift */,
+				DE5778A62A7B5A9200D052B5 /* CollectionViewCell.xib */,
+				DE5778A42A7B5A9100D052B5 /* GamePage.swift */,
+				DE5778A12A7B5A9100D052B5 /* Last_Page.swift */,
+				DE5778A52A7B5A9100D052B5 /* myCollectionReusableView.swift */,
+				DE5778A22A7B5A9100D052B5 /* MyCollectionViewCell.swift */,
 				DE5778792A7B5A7100D052B5 /* Assets.xcassets */,
 				DE57787B2A7B5A7100D052B5 /* LaunchScreen.storyboard */,
 				DE57787E2A7B5A7100D052B5 /* Info.plist */,
@@ -236,6 +257,7 @@
 			files = (
 				DE57787D2A7B5A7100D052B5 /* LaunchScreen.storyboard in Resources */,
 				DE57787A2A7B5A7100D052B5 /* Assets.xcassets in Resources */,
+				DE5778AD2A7B5A9200D052B5 /* CollectionViewCell.xib in Resources */,
 				DE5778752A7B5A7000D052B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5778A82A7B5A9200D052B5 /* Last_Page.swift in Sources */,
+				DE5778A92A7B5A9200D052B5 /* MyCollectionViewCell.swift in Sources */,
+				DE5778AA2A7B5A9200D052B5 /* CollectionViewCell.swift in Sources */,
 				DE5778722A7B5A7000D052B5 /* ViewController.swift in Sources */,
 				DE57786E2A7B5A7000D052B5 /* AppDelegate.swift in Sources */,
+				DE5778AC2A7B5A9200D052B5 /* myCollectionReusableView.swift in Sources */,
+				DE5778AB2A7B5A9200D052B5 /* GamePage.swift in Sources */,
+				DE5778A72A7B5A9200D052B5 /* Cattegary.swift in Sources */,
 				DE5778702A7B5A7000D052B5 /* SceneDelegate.swift in Sources */,
 				DE5778782A7B5A7000D052B5 /* TapOnTheNum.xcdatamodeld in Sources */,
 			);
